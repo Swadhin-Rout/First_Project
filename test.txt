@@ -1,2 +1,10 @@
 Hi! I am Swadhin.
 Today I am learning Git.
+
+git config --global user.name "swadhin"
+git config --global user.email "routswadhin8@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "routswadhin8@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+
+cat ~/.ssh/id_rsa.pub
